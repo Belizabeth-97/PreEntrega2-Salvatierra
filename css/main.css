@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #efe4e0e0;
+    overflow-x: hidden;
+}
+
+section{
+    display: block;
+    color: #4F453F;
+    font-family: "Montserrat";
+}
+
+h2{
+    color: #4F453F;
+    font-family: "Montserrat";
+}
+
+.logo{
+    display: inline-flex;
+    width: 20%;
+    height: 20%;
+    row-gap: 50%;
+}
+
+nav {
+    display: inline-flex;
+    align-content:center;
+}
+
+.menu {
+    width: 100%;
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+}
+
+.menu a {
+    color: #4F453F;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-color: #EBD8D0;
+    background-color: #EBD8D0;
+    border-radius: 7%;
+    font-family: "Montserrat";
+    opacity: 0.6;
+}
+
+a:hover{
+    opacity: 1.0;
+}
+
+.header {
+    top: 0px;
+    align-items: center;
+    display:inline-flex;
+    gap: 145px;
+}
+
+.imagenPrincipal {
+    width: 100%;
+    height: 35%;
+    top: 10px;
+}
+
+.publicidad{
+    background-color: #cfced099;
+}
+
+.banner{
+    color:#49403a;
+    text-align: center;
+}
+
+.carrito {
+    top: 7.5%;
+    left: 95%;
+    width: 2.5%;
+    height: 10%;
+}
+
+#grilla{
+    display: grid;
+    grid-template-areas:
+    "accesoCuotas accesoAccesorios"
+    "accesoCuotas accesoProducto";
+    grid-template-rows: 30% 30%; 
+    grid-template-columns: 50% 65%;
+}
+
+.accesoCuotas{
+    grid-area: accesoCuotas;
+}
+
+.accesoAccesorios{
+    grid-area: accesoAccesorios;
+}
+
+.accesoProducto{
+    grid-area: accesoProducto;
+}
+
+.grande {
+    width: 95%;
+    height: 98%;
+    margin: 5%;
+    border-radius: 3%;
+    opacity: 1;
+    object-fit: cover;
+}
+
+.chico {
+    width: 70%;
+    height: 94%;
+    margin: 5%;
+    border-radius: 3%;
+    opacity: 1;
+    object-fit: cover;
+}
+
+
+#grilla a img:hover {
+    opacity: 0.75;
+}
+
+.adicionales {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: "Montserrat";
+    padding-left: 7.5%;
+    color: #4F453F;
+}
+
+.redes {
+    text-align: center;
+    font-family: "Montserrat";
+    padding-top: 7.5%;
+    padding-bottom: 2.5%;
+}
+
+.redes a{
+    text-decoration: none;
+}
+
+.redes a img {
+    width: 50px;
+    padding-top: 2%;
+    margin: 0 15px;
+}
+
+.Novedades {
+    color: #4F453F;
+    font-family: "Montserrat";
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Novedades form {
+    text-align: center;
+}
+
+.Novedades h1{
+    display: flex;
+    justify-content: center;
+}
+
+section h1{
+    margin-left: 484px;
+}
+
+form{
+	width:268px;
+	padding:60px;
+	border-radius:10px;
+	margin-left: 355px;
+}
+
+iframe{
+    margin-left: 355px
+}
+
+form label{
+    padding: 4px;
+	width:80px;
+	font-weight:bold;
+	display:inline-block;
+}
+
+input[type=text], input[type=tel], input[type=email]{
+    padding: 0px 100px 15px 35px;
+    margin: 3px 5px 10px 0px;
+}
+
+input[type="submit" i]{
+    border: 25px;
+    margin-top: 10%;
+    padding: 10px 25px;
+    color: white;
+    background-color: #4F453F;
+    font-family: "Montserrat";
+    border-radius: 5%;
+}
+
+.compras {
+    display: inline-flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.compras h1{
+    text-align: center;
+    font-family: "Montserrat";
+}
+
+.compras img{
+    width: 60%;
+    height: 69%;
+    top:80%;
+}
+
+.textoComoComprar {
+    padding-top: 5%;
+    font-family: "Montserrat";
+    text-align: center;
+}
