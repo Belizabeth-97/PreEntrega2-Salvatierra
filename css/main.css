@@ -95,6 +95,15 @@ a:hover{
     grid-template-columns: 50% 65%;
 }
 
+#grilla-contacto{
+    display: grid;
+    grid-template-areas:
+    "datos mapa"
+    "datos mapa";
+    grid-template-rows: 65% 36%; 
+    grid-template-columns: 50%;
+}
+
 .accesoCuotas{
     grid-area: accesoCuotas;
 }
@@ -125,9 +134,16 @@ a:hover{
     object-fit: cover;
 }
 
-
 #grilla a img:hover {
     opacity: 0.75;
+}
+
+.datos{
+    grid-area: datos;
+}
+
+.mapa{
+    grid-area: mapa;
 }
 
 .adicionales {
@@ -172,31 +188,42 @@ a:hover{
     justify-content: center;
 }
 
-section h1{
-    margin-left: 484px;
+h1.contacto{
+    margin-left: 15%;
+    color: #4F453F;
+    font-family: "Montserrat";
+    margin-top: 8%;
 }
 
-form{
-	width:268px;
-	padding:60px;
+form.suscripcion{
+	width: 33%;
+	padding-left:34%;
 	border-radius:10px;
-	margin-left: 355px;
+	margin-top: 3%;
 }
 
 iframe{
-    margin-left: 355px
+    width: 86%;
+    height: 70%;
+    margin: 5%;
+}
+
+form.datos{
+    border-radius:10px;
+    margin: 16%;
 }
 
 form label{
-    padding: 4px;
-	width:80px;
+	width:25%;
 	font-weight:bold;
 	display:inline-block;
+    margin: 3%;
 }
 
 input[type=text], input[type=tel], input[type=email]{
-    padding: 0px 100px 15px 35px;
-    margin: 3px 5px 10px 0px;
+   font-size: 25px;
+   font-family: "Montserrat";
+   border-radius: 5%;
 }
 
 input[type="submit" i]{
