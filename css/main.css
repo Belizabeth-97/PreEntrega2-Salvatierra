@@ -21,24 +21,52 @@ h2{
 
 .logo{
     display: inline-flex;
-    width: 20%;
+    width: 40%;
     height: 20%;
     row-gap: 50%;
 }
 
-nav {
-    display: inline-flex;
-    align-content:center;
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    list-style: none;
 }
 
-.menu {
-    width: 100%;
-    display:inline-flex;
+.bolsa{
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-    list-style: none;
+    padding: 8%;
+}
+
+@media (min-width: 768px) and (max-width: 1440px){
+    .header {
+        display: flex;
+        top: 0px;
+        align-items: center;
+        gap: 145px;
+    }
+
+    .menu {
+        width: 100%;
+        display:inline-flex;
+        flex-direction: unset;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+        list-style: none;
+    }
+
+    .logo{
+        display: inline-flex;
+        width: 20%;
+        height: 20%;
+        row-gap: 50%;
+    }
+
 }
 
 .menu a {
@@ -57,12 +85,13 @@ a:hover{
     opacity: 1.0;
 }
 
-.header {
-    top: 0px;
-    align-items: center;
-    display:inline-flex;
-    gap: 145px;
+header{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
 }
+
 
 .imagenPrincipal {
     width: 100%;
@@ -72,6 +101,9 @@ a:hover{
 
 .publicidad{
     background-color: #cfced099;
+    color: #4F453F;
+    font-family: "Montserrat";
+    text-align: center;
 }
 
 .banner{
@@ -80,10 +112,8 @@ a:hover{
 }
 
 .carrito {
-    top: 7.5%;
     left: 95%;
-    width: 2.5%;
-    height: 10%;
+    width: 12%;
 }
 
 #grilla{
@@ -148,11 +178,13 @@ a:hover{
 
 .adicionales {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     text-align: center;
     font-family: "Montserrat";
     padding-left: 7.5%;
     color: #4F453F;
+    gap: 35px;
 }
 
 .redes {
