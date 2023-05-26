@@ -131,7 +131,7 @@ header{
     "datos mapa"
     "datos mapa";
     grid-template-rows: 65% 36%; 
-    grid-template-columns: 50%;
+    grid-template-columns: 50% 50%;
 }
 
 .accesoCuotas{
@@ -182,13 +182,13 @@ header{
     justify-content: space-evenly;
     text-align: center;
     font-family: "Montserrat";
-    padding-left: 7.5%;
     color: #4F453F;
     gap: 35px;
 }
 
 .redes {
     text-align: center;
+    align-items: center;
     font-family: "Montserrat";
     padding-top: 7.5%;
     padding-bottom: 2.5%;
