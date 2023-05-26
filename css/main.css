@@ -41,7 +41,7 @@ h2{
     padding: 8%;
 }
 
-@media (min-width: 768px) and (max-width: 1440px){
+@media (min-width: 768px){
     .header {
         display: flex;
         top: 0px;
@@ -67,6 +67,13 @@ h2{
         row-gap: 50%;
     }
 
+    #grilla-contacto{
+        display: grid;
+        grid-template-areas:
+        "datos mapa"
+        "datos mapa";
+        grid-template-columns: 50% 50%;
+    }   
 }
 
 .menu a {
@@ -128,10 +135,9 @@ header{
 #grilla-contacto{
     display: grid;
     grid-template-areas:
-    "datos mapa"
-    "datos mapa";
-    grid-template-rows: 65% 36%; 
-    grid-template-columns: 50% 50%;
+    "datos"
+    "mapa";
+    grid-template-rows: 65% 50%; 
 }
 
 .accesoCuotas{
@@ -166,14 +172,6 @@ header{
 
 #grilla a img:hover {
     opacity: 0.75;
-}
-
-.datos{
-    grid-area: datos;
-}
-
-.mapa{
-    grid-area: mapa;
 }
 
 .adicionales {
@@ -220,7 +218,7 @@ header{
     justify-content: center;
 }
 
-h1.contacto{
+.contacto{
     margin-left: 15%;
     color: #4F453F;
     font-family: "Montserrat";
