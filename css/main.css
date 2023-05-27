@@ -137,7 +137,7 @@ header{
     grid-template-areas:
     "datos"
     "mapa";
-    grid-template-rows: 65% 50%; 
+    grid-template-rows: 70% 50%; 
 }
 
 .accesoCuotas{
@@ -225,7 +225,9 @@ header{
     margin-top: 8%;
 }
 
-form.suscripcion{
+.suscripcion{
+    display: flex;
+    flex-direction: column;
 	width: 33%;
 	padding-left:34%;
 	border-radius:10px;
@@ -233,9 +235,9 @@ form.suscripcion{
 }
 
 iframe{
-    width: 86%;
-    height: 70%;
-    margin: 5%;
+    width: 80%;
+    height: 75%;
+    margin: 12%;
 }
 
 form.datos{
